@@ -22,6 +22,7 @@ cancelUploadIcon.onmousedown = () => {
 
 const imageOnChangeHandler = (e) => {
   const file = fileInput.files[0];
+  errorMessage.textContent = ``;
 
   if (file) {
     if (!isValidFileType(file)) {
