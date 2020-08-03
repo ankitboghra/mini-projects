@@ -20,7 +20,7 @@ cancelUploadIcon.onmousedown = () => {
   resetFileUpload();
 };
 
-const imageOnChangeHandler = (e) => {
+const imageOnChangeHandler = () => {
   const file = fileInput.files[0];
   errorMessage.textContent = ``;
 
