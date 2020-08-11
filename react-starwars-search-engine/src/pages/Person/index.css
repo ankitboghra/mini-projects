@@ -1,0 +1,56 @@
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #110b0b;
+  color: #ecd014;
+
+  padding: 5em;
+}
+
+h1 {
+  padding: 1em 0;
+  display: inline-block;
+}
+h2 {
+  padding: 1em 0;
+}
+
+.details-container {
+  display: flex;
+  flex-flow: wrap;
+}
+.detail-container {
+  width: 50%;
+}
+
+.detail {
+  display: block;
+}
+.detail-name {
+  font-weight: 600;
+}
+.detail-name::after {
+  content: ': ';
+}
+.detail-value {
+  display: inline-block;
+  color: beige;
+  margin-left: 0.1em;
+  padding: 0.2em 0;
+  text-transform: capitalize;
+}
+
+.back-button {
+  display: inline-block;
+  margin-left: 0.1px;
+  margin-top: 2em;
+  padding: 1em;
+
+  color: aqua;
+  text-decoration: none;
+  border: 1px solid aqua;
+}
+.back-button:hover {
+  background-color: aqua;
+  color: #110b0b;
+}
